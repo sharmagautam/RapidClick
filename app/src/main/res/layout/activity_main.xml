@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.sugoilabs.rapidclick.MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_above="@+id/linear1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/rapidclick"
+            android:textSize="45dp"
+            android:textColor="@color/blue"
+            android:text="Rapid Click"
+            android:gravity="center"
+            android:background="@drawable/green_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linea1"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:background="@drawable/box_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/easy"
+            android:id="@+id/txtesy"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EASY">
+
+        </TextView>
+
+        <TextView
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/hard"
+            android:id="@+id/txthard"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hard">
+
+        </TextView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
